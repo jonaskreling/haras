@@ -859,9 +859,9 @@ class HarasController extends CController {
 		$criteria = new CDbCriteria();
 		$criteria->condition = $condition;
 		$criteria->params = $params;
-		$pagina = $parametros['pagina'];
-		$limite = $parametros['limite'];
-		if(isset($pagina) && isset($limite)){
+		if(isset($parametros['pagina']) && isset($parametros['limite'])){
+			$pagina = $parametros['pagina'];
+			$limite = $parametros['limite'];
 			$criteria->offset = $pagina * $limite;
 			$criteria->limit = $limite;
 		}

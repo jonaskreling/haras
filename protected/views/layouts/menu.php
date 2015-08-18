@@ -24,9 +24,9 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				<li><a href="<?php echo $this->createUrl('historia'); ?>">História</a></li>
-				<li><a href="<?php echo $this->createUrl('tipoAnimal/3'); ?>">Garanhões</a></li>
-				<li><a href="<?php echo $this->createUrl('tipoAnimal/4'); ?>">Matrizes</a></li>
-				<li><a href="<?php echo $this->createUrl('tipoAnimal/5'); ?>">Potros/Potras</a></li>
+				<li><a href="<?php echo $this->createUrl('tipoAnimal/1'); ?>">Garanhões</a></li>
+				<li><a href="<?php echo $this->createUrl('tipoAnimal/2'); ?>">Matrizes</a></li>
+				<li><a href="<?php echo $this->createUrl('tipoAnimal/3'); ?>">Potros/Potras</a></li>
 				<li><a href="<?php echo $this->createUrl('vendas'); ?>">Vendas</a></li>
 				<li><a href="<?php echo $this->createUrl('exposicaoGrupo'); ?>">Exposições</a></li>
 				<li><a href="<?php echo $this->createUrl('contato'); ?>">Contato/Localização</a></li>
