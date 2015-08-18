@@ -1,0 +1,33 @@
+/* SLIDE EXPOSICAO */
+.slider2 {
+	height:100px;
+	overflow-y:hidden;
+}
+
+.animalSlide {
+	height: 365px;
+}
+
+.flex-caption {
+  width: 100%;
+  padding: 2%;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.slideAnimalLi {
+  width:100%; 
+  height:100%;
+  padding-top: 330px;
+  
+  background-size: 100% auto !important;
+  background-position-x: initial !important;
+  background-position-y: initial !important;
+  background-repeat-x: no-repeat !important;
+  background-repeat-y: no-repeat !important;
+}
