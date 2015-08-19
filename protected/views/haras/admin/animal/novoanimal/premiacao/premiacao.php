@@ -9,7 +9,7 @@
 		<div class='col-md-12'>
 			
 			<div class="form-group col-md-6">
-				<input type="text" class="form-control" ng-model="novapremiacao" placeholder="Nova premiação" maxlength="30" />
+				<input type="text" class="form-control" ng-model="novapremiacao" placeholder="Nova premiação" maxlength="500" />
 			</div>
 			
 			<div class="form-group col-md-6 text-left">

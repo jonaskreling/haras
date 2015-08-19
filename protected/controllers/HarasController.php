@@ -884,14 +884,14 @@ class HarasController extends CController {
 			$dados['video'] = $animal->video;
 			$dados['descricao'] = $animal->descricao;
 			$dados['pai'] = $animal->pai > 0?$animal->pai:"";
-			$dados['nomepai'] = $animal->Pai->nome;
+			$dados['nomepai'] = isset($animal->Pai)?$animal->Pai->nome:'';
 			$dados['mae'] = $animal->mae > 0?$animal->mae:"";
-			$dados['nomemae'] = $animal->Mae->nome;
+			$dados['nomemae'] = isset($animal->Mae)?$animal->Mae->nome:'';
 			$dados['sexo'] = $animal->sexo;
-			$dados['nomeraca'] = $animal->Raca->nome;
+			$dados['nomeraca'] = isset($animal->Raca)?$animal->Raca->nome:'';
 			$dados['raca'] = $animal->raca > 0?$animal->raca:"";
 			$dados['pagina'] = $animal->pagina > 0?$animal->pagina:"";
-			$dados['paginanome'] = $animal->Pagina->nome;
+			$dados['paginanome'] = isset($animal->Pagina)?$animal->Pagina->nome:'';
 			$dados['show'] = true;
 			
 			if($dados['pai'] != '' && $dados['mae'] != ''){
@@ -970,20 +970,20 @@ class HarasController extends CController {
 		$dados['descricao'] = $animal->descricao;
 		$dados['sexo'] = $animal->sexo;
 		$dados['sexonome'] = $animal->sexo == 'F'?'FÊMEA':'MACHO';
-		$dados['nomeraca'] = $animal->Raca->nome;
+		$dados['nomeraca'] = isset($animal->Raca)?$animal->Raca->nome:'';
 		$dados['raca'] = $animal->raca > 0?$animal->raca:"";
 		$dados['pagina'] = $animal->pagina > 0?$animal->pagina:"";
-		$dados['paginanome'] = $animal->Pagina->nome;
+		$dados['paginanome'] = isset($animal->Pagina)?$animal->Pagina->nome:'';
 		
 		$dados['pai'] = $animal->pai > 0?$animal->pai:"";
-		$dados['nomepai'] = $animal->Pai->nome;
+		$dados['nomepai'] = isset($animal->Pai)?$animal->Pai->nome:'';
 		$dados['paipai'] = isset($animal->Pai->Pai->id)?$animal->Pai->Pai->id:"";
 		$dados['nomepaipai'] = isset($animal->Pai->Pai->id)?$animal->Pai->Pai->nome:"";
 		$dados['paimae'] = isset($animal->Pai->Mae->id)?$animal->Pai->Mae->id:"";
 		$dados['nomepaimae'] = isset($animal->Pai->Mae->id)?$animal->Pai->Mae->nome:"";
 		
 		$dados['mae'] = $animal->mae > 0?$animal->mae:"";
-		$dados['nomemae'] = $animal->Mae->nome;
+		$dados['nomemae'] = isset($animal->Mae)?$animal->Mae->nome:'';
 		$dados['maemae'] = isset($animal->Mae->Mae->id)?$animal->Mae->Mae->id:"";
 		$dados['nomemaemae'] = isset($animal->Mae->Mae->id)?$animal->Mae->Mae->nome:"";
 		$dados['maepai'] = isset($animal->Mae->Pai->id)?$animal->Mae->Pai->id:"";
@@ -1178,14 +1178,14 @@ class HarasController extends CController {
 			$dados['video'] = $animal->video;
 			$dados['descricao'] = $animal->descricao;
 			$dados['pai'] = $animal->pai;
-			$dados['nomepai'] = $animal->Pai->nome;
+			$dados['nomepai'] = isset($animal->Pai)?$animal->Pai->nome:'';
 			$dados['mae'] = $animal->mae;
-			$dados['nomemae'] = $animal->Mae->nome;
+			$dados['nomemae'] = isset($animal->Mae)?$animal->Mae->nome:'';
 			$dados['sexo'] = $animal->sexo;
-			$dados['nomeraca'] = $animal->Raca->nome;
+			$dados['nomeraca'] = isset($animal->Raca)?$animal->Raca->nome:'';
 			$dados['raca'] = $animal->raca;
 			$dados['pagina'] = $animal->pagina;
-			$dados['paginanome'] = $animal->Pagina->nome;
+			$dados['paginanome'] = isset($animal->Pagina)?$animal->Pagina->nome:'';
 			$dados['show'] = true;
 			
 			$dados['qtdimagem'] = count($animal->Imagemanimal);
