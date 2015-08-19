@@ -245,7 +245,7 @@ textarea { resize: vertical; }
 
 i.image-animal-page {
 	width:100%;
-	height:250px;
+	height:232px;
 	background-position:50% 25%;
 	background-repeat:no-repeat;
 	background-size:100%;
