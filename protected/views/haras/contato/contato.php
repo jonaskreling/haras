@@ -15,7 +15,11 @@
 	</div>
     <div class="row">
 		<div class="col-xs-12 col-md-6">
-			<p>Rua Maria Dolores Pereira, Biguaçu - Santa Catarina</p>
+			<p><b>Haras Aleixo</b></p>
+			<p>Rua Maria Dolores Pereira</p>
+			<p>Biguaçu – Santa Catarina - Brasil</p>
+			<p>Fone: (48) 9912 3950</p>
+			<br />
 			<form>
 				<div class="form-group text-left">
 					<label for="nome" class="control-label text-left">Nome:</label>

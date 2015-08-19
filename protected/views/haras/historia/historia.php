@@ -14,8 +14,13 @@
 		</div>
 	</div>
     <div class="row">
-		<div class="col-xs-12 col-md-4">
-			História do Haras.
+		<div class="col-xs-12 col-md-6">
+			
+		</div>
+		<div class="col-xs-12 col-md-6">
+			<div class="thumbnail venda">
+				<img src="<?php echo $path; ?>/images/simbolo/oharas.jpg">
+			</div>
 		</div>
 	</div>
 	<br />
