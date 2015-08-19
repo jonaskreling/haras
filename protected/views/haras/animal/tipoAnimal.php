@@ -19,9 +19,9 @@
     <div class="row" ng-repeat="animaisdivididos in listaanimaisdivididos">
 		<div class="col-xs-12 col-md-4" ng-repeat="animal in animaisdivididos" ng-click="openAnimal(animal.id)">
 			<div class="thumbnail venda">
-				<img ng-src="{{animal.imagens.0.url}}">
-				<h3 class="text-center">{{animal.nome}}</h3>
-				<p class="text-center">{{animal.nomepaiemae}}</p>
+				<i ng-style="{'background-image':'url({{animal.imagens.0.url}})'}" class="image-animal-page"></i>
+				<h4 class="text-center no-wrap-text">{{animal.nome}}</h4>
+				<p class="text-center no-wrap-text" style="font-size: 12px">{{animal.nomepaiemae}}</p>
 			</div>
 		</div>
 	</div>

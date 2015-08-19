@@ -243,6 +243,23 @@ textarea { resize: vertical; }
 	border:2px #96775A dashed;
 }
 
+i.image-animal-page {
+	width:100%;
+	height:250px;
+	background-position:50% 25%;
+	background-repeat:no-repeat;
+	background-size:100%;
+	overflow:hidden;
+	display:block;
+	zoom:1;
+	background-color:#000000;
+}
+
+.no-wrap-text {
+	overflow:hidden;
+	white-space: nowrap;
+}
+
 .shaddow {
 	-moz-box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.3);
 	-webkit-box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
