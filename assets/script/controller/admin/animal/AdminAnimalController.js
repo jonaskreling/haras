@@ -80,7 +80,7 @@
 		$scope.carregarAnimais = function(){
 			$scope.animalVazio = true;
 			$scope.animalPagina = 0;
-			$scope.animalLimite = 10;
+			$scope.animalLimite = 25;
 			$scope.animalPaginacao();
 			$scope.animalCarregar();
 			$scope.animalFindAll();
