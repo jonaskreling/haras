@@ -21,7 +21,7 @@
         
         $scope.tratarAnimal = function (){
             if($angular.isUndefined($scope.animal.video) || $scope.animal.video == ''){
-                $scope.animal.video = 'cDJ2YmIj3oo';
+                //$scope.animal.video = 'cDJ2YmIj3oo';
             }
             
             $scope.slides = [];
