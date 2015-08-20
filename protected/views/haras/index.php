@@ -25,7 +25,7 @@
 	      	</div>
 			<p class="text-left">Possuímos em nosso plantel, os melhores e mais premiados exemplares da raça <b>Mangalarga Marchador</b>.</p>
 			<p class="text-right">
-				<a class="btn btn-primary btn-lg" href="<?php echo $this->createUrl('tipoAnimal/4'); ?>" role="button">Saiba mais...</a>
+				<a class="btn btn-primary btn-lg" href="<?php echo $this->createUrl('tipoAnimal/2'); ?>" role="button">Saiba mais...</a>
 			</p>
 		</div>
 		<div class="col-xs-12 col-md-4">
