@@ -19,7 +19,7 @@
 				<h2>Garanhões</h2>
 			</div>
 		</div>
-		<div class="col-xs-12 col-md-6" ng-click="linkar('<?php echo $this->createUrl('vendasInterna/3'); ?>')">
+		<div class="col-xs-12 col-md-6" ng-click="linkar('<?php echo $this->createUrl('vendasInterna/2'); ?>')">
 			<div class="thumbnail venda">
 				<img src="<?php echo $path.'/images/simbolo/vendas.png'; ?>" alt="">
 				<h2>Coberturas</h2>
@@ -27,13 +27,13 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-xs-12 col-md-6" ng-click="linkar('<?php echo $this->createUrl('vendasInterna/4'); ?>')">
+		<div class="col-xs-12 col-md-6" ng-click="linkar('<?php echo $this->createUrl('vendasInterna/3'); ?>')">
 			<div class="thumbnail venda">
 				<img src="<?php echo $path.'/images/simbolo/vendas.png'; ?>" alt="">
 				<h2>Embriões</h2>
 			</div>
 		</div>
-		<div class="col-xs-12 col-md-6" ng-click="linkar('<?php echo $this->createUrl('vendasInterna/5'); ?>')">
+		<div class="col-xs-12 col-md-6" ng-click="linkar('<?php echo $this->createUrl('vendasInterna/4'); ?>')">
 			<div class="thumbnail venda">
 				<img src="<?php echo $path.'/images/simbolo/vendas.png'; ?>" alt="">
 				<h2>Óvulos</h2>
