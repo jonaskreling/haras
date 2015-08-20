@@ -26,7 +26,7 @@
 					</div>
 				</li>
 			</flex-slider>
-			<br />
+			<br class="esconder-celular" />
 			<flex-slider id="animais2" class="carousel" slide="s in slides" animation="slide" animation-loop="false" smooth-height="false" control-nav="false" item-width="200" item-margin="5" as-nav-for="#animais-slider">
 				<li class="slider2">
 					<img ng-src="{{s}}">

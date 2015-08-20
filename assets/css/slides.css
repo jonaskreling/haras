@@ -7,6 +7,14 @@
 .animalSlide {
 	height: 365px;
 }
+@media (max-width: 768px) {
+	.animalSlide {
+		height: 190px;
+	}	
+	.flexslider{
+		margin-bottom: 10px;
+	}
+}
 
 .flex-caption {
   width: 100%;
