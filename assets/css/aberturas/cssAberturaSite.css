@@ -45,6 +45,9 @@ h4.titulo-inicial {
 	.btn-celular {
 		height: 46px;
 	}
+	.esconder-celular {
+		display: none;
+	}
 }
 @media (min-width: 769px) and (max-width: 992px) {
 	h1.titulo-inicial {

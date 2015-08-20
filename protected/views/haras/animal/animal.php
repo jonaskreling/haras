@@ -113,21 +113,21 @@
 	    <div class="col-xs-12 col-md-6">
 	        <h3>Vídeo</h3>
 	        <hr />
-	        <div my-youtube code="animal.video"></div>
+	        <div my-youtube code="animal.video" ng-if="animal.video != undefined && animal.video != ''"></div>
 	    </div>
 	    <div class="col-xs-12 col-md-6">
 	        <h3>Premiações</h3>
 	        <hr />
-	        <h4 ng-repeat="premiacao in animal.premiacoes">
+	        <h4 ng-repeat="premiacao in animal.premiacoes" >
 	            <img src='<?php echo $path.'/images/simbolo/premio.png'; ?>' width='100' />
 	            {{premiacao.descricao}}
 	        </h4>
 	    </div>
 	</div>
     
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
+	<br class="esconder-celular" />
+	<br class="esconder-celular" />
+	<br class="esconder-celular" />
+	<br class="esconder-celular" />
+	<br class="esconder-celular" />
 </div>
