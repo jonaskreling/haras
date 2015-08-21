@@ -16,9 +16,9 @@
     <div class="row" ng-repeat="exposicoesdivididas in listaexposicoesdivididas">
 		<div class="col-xs-12 col-md-4" ng-repeat="exposicao in exposicoesdivididas" ng-click="openExposicao(exposicao.id)">
 			<div class="thumbnail venda">
-				<img ng-src="{{exposicao.imagens.0.url}}">
-				<h3 class="text-center">{{exposicao.nome}}</h3>
-				<p class="text-center">{{exposicao.qtdimagem}} foto(s)</p>
+				<i ng-style="{'background-image':'url({{exposicao.imagens.0.url}})'}" class="image-animal-page"></i>
+				<h4 class="text-center no-wrap-text">{{exposicao.nome}}</h4>
+				<p class="text-center no-wrap-text" style="font-size: 12px">{{exposicao.qtdimagem}} foto(s)</p>
 			</div>
 		</div>
 	</div>

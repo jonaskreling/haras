@@ -107,7 +107,7 @@
 				return false;
 			if($utilService.isNullOrBlanck(service.venda.valor,'Deve digitar o valor da venda.'))
 				return false;
-			if(service.venda.tipovenda == 5){
+			if(service.venda.tipovenda == 4){
 				if($utilService.isNullOrBlanck(service.venda.animal2,'Deve selecionar o segundo animal.'))
 					return false;
 			}else{

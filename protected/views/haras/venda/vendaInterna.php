@@ -18,15 +18,15 @@
     <div class="row" ng-repeat="vendasdivididas in listavendasdivididas">
 		<div class="col-xs-12 col-md-4" ng-repeat="venda in vendasdivididas" ng-click="openAnimal(venda.animal)">
 			<div class="thumbnail venda">
-				<img ng-src="{{venda.imagens.0.url}}">
-				<h3 class="text-center">{{venda.animalnome}}</h3>
-				<p class="text-center">{{venda.nomepaiemae}}</p>
+				<i ng-style="{'background-image':'url({{venda.imagens.0.url}})'}" class="image-animal-page"></i>
+				<h4 class="text-center no-wrap-text">{{venda.animalnome}}</h4>
+				<p class="text-center no-wrap-text" style="font-size: 12px">{{venda.nomepaiemae}}</p>
 			</div>
 		</div>
 	</div>
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
+	<br class="esconder-celular" />
+	<br class="esconder-celular" />
+	<br class="esconder-celular" />
+	<br class="esconder-celular" />
+	<br class="esconder-celular" />
 </div>

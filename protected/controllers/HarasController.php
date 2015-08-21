@@ -495,11 +495,11 @@ class HarasController extends CController {
 			$dados['id'] = $venda->id;
 			$dados['valor'] = $venda->valor;
 			$dados['animal'] = $venda->animal;
-			$dados['animalnome'] = $venda->Animal->nome;
+			$dados['animalnome'] = isset($venda->Animal)?$venda->Animal->nome:'';
 			$dados['animal2'] = $venda->animal2;
-			$dados['animal2nome'] = $venda->Animal2->nome;
+			$dados['animal2nome'] = isset($venda->Animal2)?$venda->Animal2->nome:'';
 			$dados['tipovenda'] = $venda->tipovenda;
-			$dados['tipovendanome'] = $venda->Tipovenda->nome;
+			$dados['tipovendanome'] = isset($venda->Tipovenda)?$venda->Tipovenda->nome:'';
 			$dados['data'] = strftime('%d de %b, %Y', strtotime($venda->data));
 			$dados['showAnimal2'] = ($venda->animal2 != 0);
 			$dados['show'] = true;
@@ -1431,11 +1431,11 @@ class HarasController extends CController {
 			$dados['id'] = $venda->id;
 			$dados['valor'] = $venda->valor;
 			$dados['animal'] = $venda->animal;
-			$dados['animalnome'] = $venda->Animal->nome;
+			$dados['animalnome'] = isset($venda->Animal)?$venda->Animal->nome:'';
 			$dados['animal2'] = $venda->animal2;
-			$dados['animal2nome'] = $venda->Animal2->nome;
+			$dados['animal2nome'] = isset($venda->Animal2)?$venda->Animal2->nome:'';
 			$dados['tipovenda'] = $venda->tipovenda;
-			$dados['tipovendanome'] = $venda->Tipovenda->nome;
+			$dados['tipovendanome'] = isset($venda->Tipovenda)?$venda->Tipovenda->nome:'';
 			$dados['data'] = strftime('%d%m%Y', strtotime($venda->data));
 			$dados['datanome'] = strftime('%d de %b, %Y', strtotime($venda->data));
 			
@@ -1473,7 +1473,7 @@ class HarasController extends CController {
 		$mensagem = $parametros['nome'].'<br />'.$parametros['telefone'].'<br >'.$parametros['mensagem'];
 		$message->setBody($mensagem, 'text/html');
 		$message->subject = 'Mensagem de '.$parametros['nome'];
-		$message->addTo('rodrigo@harasaleixo.com.br');
+		$message->addTo('contato@harasaleixo.com.br');
 		$message->from = $parametros['email'];
 		Yii::app()->mail->send($message);
 		
