@@ -10,9 +10,12 @@
 			
 			<div class="form-class col-md-6">
 				<label for="tipovenda" required>Tipo de venda*</label>
-				<select class="form-control" ng-model="venda.tipovenda" ng-options="tipovenda.id as tipovenda.nome for tipovenda in listatipovenda">
+				<select 
+					class="form-control" 
+					ng-model="venda.tipovenda" 
+					ng-options="tipovenda.id as tipovenda.nome for tipovenda in listatipovenda"
+					ng-change="escolherTipoVenda()">
 					<option value="">-- Selecione --</option>
-					
 				</select>
 			</div>
 			

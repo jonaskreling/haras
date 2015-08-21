@@ -27,10 +27,10 @@
 		};
 		
 		$scope.escolherTipoVenda = function(tab){
-			if($scope.novavenda.tipovenda == 4){
-				$scope.novavenda.showAnimal2 = true;
+			if($scope.venda.tipovenda == 4){
+				$scope.venda.showAnimal2 = true;
 			}else{
-				$scope.novavenda.showAnimal2 = false;
+				$scope.venda.showAnimal2 = false;
 			}
 		};
 		
