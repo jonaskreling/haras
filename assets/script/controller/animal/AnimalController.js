@@ -28,6 +28,8 @@
             for(var i = 0 ; i < $scope.animal.imagens.length; i++){
                 $scope.slides.push($scope.animal.imagens[i].url);
             }    
+            
+            $scope.animal.venda = $scope.animal.venda && animalIsVenda;
         };
         
         $scope.enviarEmail = function (){

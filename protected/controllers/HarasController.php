@@ -26,6 +26,7 @@ class HarasController extends CController {
 	public $tipovenda = '';
 	public $tipoanimal = '';
 	public $idRegistro = '';
+	public $animalIsVenda = '';
 	
 	// @parametros da página de admin
 	public $paginaAdminInicial = 1;
@@ -223,6 +224,20 @@ class HarasController extends CController {
 		}else if(isset($_GET['id']) && $_GET['id'] != ''){
 			$this->idRegistro = $_GET['id'];
 		}
+		$this->animalIsVenda = 'false';
+		$this->render("animal/animal");
+	}
+	
+	/**
+	 * Abre a página de animal de venda.
+	 */
+	public function actionAnimalVenda(){
+		if(isset($_POST['id']) && $_POST['id'] != ''){
+			$this->idRegistro = $_POST['id'];
+		}else if(isset($_GET['id']) && $_GET['id'] != ''){
+			$this->idRegistro = $_GET['id'];
+		}
+		$this->animalIsVenda = 'true'; 
 		$this->render("animal/animal");
 	}
 	

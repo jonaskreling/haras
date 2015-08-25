@@ -8,6 +8,7 @@
 ?>
 <script>
     var id = <?php echo $this->idRegistro; ?>;
+    var animalIsVenda = <?php echo $this->animalIsVenda; ?>;
 </script>
 <div class="container" ng-controller="AnimalController" ng-show="animal != undefined">
 	<div class="row">

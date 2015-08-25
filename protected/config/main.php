@@ -71,6 +71,7 @@ return array(
 				'animalPaginacao'=>'haras/animalPaginacao',
 				'qtdAnimais'=>'haras/qtdAnimais',
 				'animal/<id:\d+>'=>'haras/animal',
+				'animal/venda/<id:\d+>'=>'haras/animalVenda',
 				'findAnimal'=>'haras/findAnimal',
 				'tipoAnimal/<tipoanimal:\d+>'=>'haras/tipoAnimal',
 				'salvarNovoAnimal'=>'haras/salvarNovoAnimal',

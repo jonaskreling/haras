@@ -5,7 +5,7 @@
         };
         
         $scope.openAnimal = function (id){
-        	$scope.linkar($utilService.urlAction() + 'animal/'+id);
+        	$scope.linkar($utilService.urlAction() + 'animal/venda/'+id);
         };
         
         $scope.tipovendasNome = "";
