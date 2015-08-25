@@ -5,7 +5,7 @@
 ?>
 <div ng-controller="AdminAnimalController">
 	<div class='row'>
-		<div class='col-md-3'>
+		<div class='col-md-4'>
 			<table>
 				<tr>
 					<td>
@@ -20,7 +20,7 @@
 				</tr>
 			</table>
 		</div>	
-		<div class='col-md-9'>
+		<div class='col-md-8'>
 			<div class="btn-toolbar" role="toolbar">
 				
 				<div class="btn-group">

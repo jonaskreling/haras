@@ -43,7 +43,7 @@
 			</form>
 		</div>
 		<div class="col-xs-12 col-md-6">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.510559731114!2d-48.7566129!3d-27.4533602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9520acfdce7d550d%3A0x7b76a4d00435f92!2sR.+Maria+Dolores+Pereira+-+LIMEIRA%2C+Bigua%C3%A7u+-+SC%2C+88160-000!5e0!3m2!1spt-BR!2sbr!4v1439420179228" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.510559731114!2d-48.7566129!3d-27.4533602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9520acfdce7d550d%3A0x7b76a4d00435f92!2sR.+Maria+Dolores+Pereira+-+LIMEIRA%2C+Bigua%C3%A7u+-+SC%2C+88160-000!5e0!3m2!1spt-BR!2sbr!4v1439420179228" width="450" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
 	</div>
 	<br />
